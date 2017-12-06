@@ -1,0 +1,156 @@
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: #eaeaea;
+}
+
+.input-group {
+    direction: rtl;
+}
+
+.input-group label {
+    text-align: right;
+    right: 0px;
+    transform-origin: top right;
+}
+
+.input-group__details {
+    direction: rtl;
+}
+
+.input-group .input-group__counter {
+    direction: ltr;
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.tabs__wrapper {
+    position: initial;
+}
+
+.tabs--icons .tabs__bar {
+    height: 85px;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+.btn:focus,
+btn:active {
+    outline: none !important;
+}
+
+table.table tbody tr {
+    transition: background 0.3s cubic-bezier(.25, .8, .25, 1);
+    cursor: pointer;
+}
+
+table.table tbody tr:hover,
+table.table tbody tr:nth-child(even):hover {
+    background: #d6d6d6;
+}
+
+.table>thead>tr>th.active {
+    background-color: transparent;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    vertical-align: middle;
+}
+
+.table {
+    margin-bottom: 0px;
+    direction: rtl;
+    font-family: 'vazir';
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: rgba(220, 220, 220, 0.3);
+}
+
+.table tbody tr td {
+    text-align: center !important;
+}
+
+.table thead {
+    background-color: rgb(64, 90, 115);
+}
+
+.table thead tr th {
+    padding-right: 0px !important;
+}
+
+.table thead tr th span {
+    color: #efefef;
+    font-size: 11pt;
+}
+
+.table>tfoot>tr>td>div {
+    padding-right: 30%;
+    direction: ltr;
+}
+
+.table>tfoot>tr>td>div>div {
+    font-size: 11pt;
+    direction: rtl;
+}
+
+.table tbody tr td {
+    font-size: 12pt;
+}
+
+.table>tfoot>tr>td>div div:first-child {
+    padding-right: 3px;
+}
+
+.application--light .input-group.input-group--selection-controls.checkbox,
+.application--light .input-group.input-group--selection-controls {
+    color: rgba(71, 69, 97, 0.65);
+}
+
+.modal-open {
+    padding: 0px !important;
+}
+
+.bottom-nav .btn .btn__content {
+    height: 76px;
+}
+
+.list__tile__action {
+    min-width: 30px;
+}
+
+.list__tile--highlighted,
+a.list__tile:hover {
+    background: rgba(11, 255, 234, 0.13);
+}
+
+.menu__content .card {
+    background-color: #d2d2d2;
+}
+
+.list__tile--highlighted,
+a.list__tile:hover {
+    background: rgba(104, 105, 105, 0.11);
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}

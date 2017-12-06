@@ -1,0 +1,9 @@
+.myh1 {
+    color: #494c6f;
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+.table thead tr th:nth-child(2) {
+    width: 90%;
+}
